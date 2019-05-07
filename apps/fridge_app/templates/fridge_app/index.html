@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Fridge 1st Page</title>
+</head>
+<body>
+<div class="container">
+	<form action='{% url "user_fridge" %}' method='post'> 
+		{% csrf_token%}
+		Ingredients: <input type="text" name="food_name"><br>
+		<input type="submit" name="submit" value="Add Food">
+		</form>
+
+	<div class="Fridge">
+
+		<h3>Add food to your fridge.</h3>
+		{% for food in fooditem %}
+			<p>{{ food.food_name }}</p>
+		{% endfor %}	
+	</div>
+		<!-- <h3>{{u.food_name}}</h3>	
+ -->
+
+
+
+
+
+</div>
+
+</body>
+</html>

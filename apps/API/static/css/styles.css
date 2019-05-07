@@ -1,0 +1,151 @@
+/**{
+	outline:1px solid black;
+}
+*/.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+.imaginary_container{
+	margin-left: 20px;
+}
+div#background_image{
+	background-image: url("table_cloth.jpg");
+	height: 2000px;
+	width: 100%;
+}
+div.recipeResult {
+	display:inline-block;
+	vertical-align: top;
+	height: 100%;
+	width: 80%;
+}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle){
+	margin-top: 20px;
+}
+.input-group-addon {
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 5px;
+}
+.glyphicon{
+	margin-top: 19px;
+}
+p{
+	color: white;
+}
+.recipeDiv {
+	width: 275px;
+    height: 340px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #0241B3;
+    margin: 20px;
+    margin-left: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+img{
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+h4 {
+	font-size: 16px;
+	margin-left: 20px;
+	margin-right: 10px;
+	text-transform: capitalize;
+	color: white;
+}
+
+
+#fadeandscale{
+	background-color: #0241B3;
+}
+.btn{
+	width: 200px;
+	margin-left: 20px;
+	background-color: #F21B30
+}
+form.form{
+	background-color: #0241B3;
+	margin-top: 15%;
+	
+}
+fieldset{
+	color: white;
+	
+
+}
+div.registration, div.login{
+	width: 25%;
+	margin-left: 37%;
+}
+div.container{
+	text-align: center;
+	color: white;
+}
+div.container h1{
+	background-color: #0241B3;
+}
+h3.message{
+	background-color: red;
+	color: white;
+}
+div.right{
+	display:inline-block;
+	width: 15%;
+	vertical-align: top;
+	margin-top: 15%;
+	min-height: 150px;
+	/*padding-bottom: 10%;*/
+	background-color: #0241B3;
+	border-radius: 10px;
+
+}
+div.right form{
+	margin-left: 15px;
+	margin-top: 15px;
+
+}
+p.foodfridge a {
+	margin-left: 10px;
+	color: white;
+}
+p.logofflink{
+	
+	color: white;
+	text-align: right;
+	/*margin-top: 120px;*/
+	margin-right: 25px;
+	
+}
+
+p.logofflink a{
+	color: white;
+	
+}
+
+div.storage{
+/*	background-color: red;
+*/	min-height:75px;
+}
+
+
+
+
+
+
+
+
+
+
+
